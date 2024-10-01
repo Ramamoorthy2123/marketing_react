@@ -5,7 +5,7 @@ import UserLogIn from "./Components/LogInCredential/User/UserLogIn";
 import AdminSignUp from "./Components/SignUpCredential/Admin/AdminSignUp";
 import UserSignUp from "./Components/SignUpCredential/User/UserSignUp"
 import Admin from "./Components/Admin/Admin";
-import ResetPassword from "./Components/ResetPassword/resetPassword";
+import ResetPassword from "./Components/ResetPassword/ResetPassword"
 import Form from "./Components/Form/Form";
 import RecordDetail from "./Components/RecordDetail/RecordDetail";
 
