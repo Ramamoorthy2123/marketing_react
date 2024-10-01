@@ -1,0 +1,119 @@
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.right{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 5px solid rgb(64, 3, 3);
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 7px 7px 7px 7px rgb(64, 3, 3);
+    transition: all .5s linear;
+}
+.right:hover{
+    transform: skew(1deg);
+}
+
+.right h1{
+    color:rgba(255, 255, 255, 0.97);
+    font-size: 20px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.right div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1,0 400px;
+    
+}
+
+.right div label{
+    font-size: 17px;
+    color: #ebe5e5f5;
+}
+.right div input{
+    background-color: transparent;
+    /* border: 2px solid gray; */
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 20px;
+    height: 30px;
+    outline: none;
+    color:white;
+    font-size: 15px;
+}
+
+.right div input:hover,
+.right div input:active{
+    color: #fff;
+    font-size: 20px;
+    border:2px solid rgba(164, 73, 9, 0.82);
+    /* border:2px solid rgba(108, 152, 174, 0.82); */
+}
+#already{
+    display: flex;
+    flex-direction: row;
+}
+#already p,
+#already .already-link{
+    
+    font-size: 20px;
+    
+}
+#already .already-link
+{
+     /* color: rgba(236, 104, 10, 0.852); */
+     color:rgb(19, 52, 90);
+    font-weight: 700;
+    transition: all .5s linear;
+}
+#already .already-link:hover{
+    text-decoration: underline;
+}
+.right #button,
+button{
+    padding: 5px 25px;
+    outline:none;
+    border-radius: 50px;
+    border: 1.5px solid #fff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .5s linear;
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1rem;
+}
+.right #button:hover,
+button:hover{
+    background: #be850b;
+    font-weight: 700;
+    color:#000;
+}
+
+ #resetpassword #resetpassword{
+    font-size: 16px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     /* color: rgba(236, 104, 10, 0.852);  */
+    /* font-weight: 700; */
+    transition: all .5s linear;
+}
+
+#resetpassword #resetpassword:hover{
+    text-decoration: underline;
+}

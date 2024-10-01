@@ -1,0 +1,120 @@
+
+#mainForm {
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+    font-size: 1em;
+  } 
+  
+  form {
+    display: grid;
+    gap: 1em;
+
+  }
+  
+ 
+  label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+ .input
+   {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.25em;
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid gray;
+    color:#fff
+   
+  }
+  
+  /* .input:hover
+{
+    color: #fff;
+    border:2px solid rgba(164, 73, 9, 0.82);
+    
+  } 
+    */
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  input[type="file"] {
+    padding: 0;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin:  0 15px;
+    border-radius: 50px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  #imagePreview {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    margin-top: 1em;
+  }
+  
+  #uploadTime {
+    margin-top: 0.5em;
+    color: #666;
+  }
+  
+  .radio_buttoos {
+    margin: 1em 0;
+  }
+  
+  .radio_buttoos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .radio_buttoos li {
+    margin-bottom: 0.5em;
+  }
+  
+  .Finbutton {
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  .Finbutton button{
+    width: 200px;
+  }
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    form {
+      grid-template-columns: 1fr;
+    }
+  
+    #imagePreview {
+      height: 150px;
+    }
+  
+    .radio_buttoos ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .radio_buttoos li {
+      margin-bottom: 0.25em;
+    }
+  }
+  

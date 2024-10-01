@@ -1,0 +1,65 @@
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    margin: 0 70px 20px 70px;
+    
+}
+.card{
+    width: 300px;
+    display: grid;
+    place-items: center;    
+    border: 5px solid rgb(80, 7, 7);
+    border-radius: 15px;
+    padding: 20px 2px 50px ; 
+    row-gap: 10px;
+    box-shadow: 7px 7px 7px 7px rgb(80, 7, 7);
+    transition: all .5s ease-in-out;
+    background-color: transparent;
+    transition: all .5s linear;
+}
+
+
+.card:hover{
+   
+    transform: skew(1deg);
+}
+.card .icon{
+    width: 50px;
+    height: 50px;
+    color:white;
+}
+.card h2{
+    color:#e28205;
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card .btn {
+    display: flex;
+    flex-direction: column;
+  
+}
+.card .btn .Link
+{
+    padding: 5px 25px;
+    outline:none;
+    border-radius: 50px;
+    border: 1.5px solid #fff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .5s linear;
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1rem;
+}
+
+.card .btn .Link:hover
+{
+    background: #be850b;
+    font-weight: 700;
+    color:#000;
+}
